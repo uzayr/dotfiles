@@ -25,6 +25,10 @@
 
     " show column and line number
     set ruler
+    set showmode
+    set title
+    set backupdir=~/.vim/backups
+    set directory=~/.vim/swaps
 " }
 
 " enable all Python syntax highlighting features
