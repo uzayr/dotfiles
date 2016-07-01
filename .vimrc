@@ -27,8 +27,15 @@
     set ruler
     set showmode
     set title
+
+    " Setup backup file dir
     set backupdir=~/.vim/backups
+
+    " Setup .swp files dir
     set directory=~/.vim/swaps
+
+    " Enable mouse interaction
+    set mouse=a
 " }
 
 " enable all Python syntax highlighting features
