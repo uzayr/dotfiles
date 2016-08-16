@@ -61,3 +61,7 @@ filetype plugin on
 
 " adding toggle dir tree
 map <C-n> :NERDTreeToggle<CR>
+
+" filenames like *.xml, *.html, *.xhtml, ...
+source ~/.vim/closetags.vim
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml"
