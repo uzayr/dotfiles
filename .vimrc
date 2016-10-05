@@ -35,7 +35,7 @@
     set directory=~/.vim/swaps
 
     " Enable mouse interaction
-    set mouse=a
+    " set mouse=a
 " }
 
 " enable all Python syntax highlighting features
